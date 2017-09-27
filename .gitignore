@@ -1,0 +1,11 @@
+/src/.vs
+/src/.learningtransport
+/src/packages
+/src/NServiceBus.StepByStep.Sample.Client/bin
+/src/NServiceBus.StepByStep.Sample.Client/obj
+/src/NServiceBus.StepByStep.Sample.Server/bin
+/src/NServiceBus.StepByStep.Sample.Server/obj
+/src/NServiceBus.StepByStep.Sample.Shared/bin
+/src/NServiceBus.StepByStep.Sample.Shared/obj
+/src/NServiceBus.StepByStep.Sample.Subscriber/bin
+/src/NServiceBus.StepByStep.Sample.Subscriber/obj
