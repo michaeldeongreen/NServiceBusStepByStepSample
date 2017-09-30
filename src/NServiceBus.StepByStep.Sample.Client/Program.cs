@@ -72,7 +72,7 @@ namespace NServiceBus.StepByStep.Sample.Client
                     Product = "New shoes",
                     Id = id
                 };
-                await endpointInstance.Send("Samples.StepByStep.Server", placeOrder)
+                await endpointInstance.Send("NServiceBus.StepByStep.Sample.Server", placeOrder)
                     .ConfigureAwait(false);
                 Console.WriteLine($"Sent a PlaceOrder message with id: {id:N}");
             }
