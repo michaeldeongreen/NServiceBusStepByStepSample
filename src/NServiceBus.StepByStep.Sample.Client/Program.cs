@@ -36,8 +36,6 @@ namespace NServiceBus.StepByStep.Sample.Client
             // a database. In this sample, only subscription information is stored
             endpointConfiguration.UsePersistence<LearningPersistence>();
 
-            endpointConfiguration.EnableWindowsPerformanceCounters();
-
             // Initialize the endpoint with the finished configuration
             var endpointInstance = await Endpoint.Start(endpointConfiguration)
                 .ConfigureAwait(false);
